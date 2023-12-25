@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Your Preferred Font', sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background: #e74c32;
+}
+
+.navbar {
+    padding-top: 20px !important;
+}
+
+.nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 20px;
+    padding: 0 0 5px 0;
+    display: unset;
+}
+
+.navbar-brand img {
+    width: 125px;
+}
+
+.active-home {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Banner Styles */
+.banner {
+    margin-top: 8%;
+    color: #fff;
+}
+
+.banner img {
+    max-height: 500px;
+}
+
+.banner a {
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #e74c32;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.banner a:hover {
+    color: #fff;
+}
+
+.express-btn {
+    background: #fff !important;
+    color: #000 !important;
+    margin-right: 5px;
+}
+
+/* About Section Styles */
+.about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about h2 {
+    color: #e74c32;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footer h3 {
+    color: #e74c32;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Leave a Message Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+button.btn-primary {
+    background: #e74c32;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Subscribe Content Styles */
+.subscribe-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.subscribe-content h2 {
+    color: #e74c32;
+}
+
+.subscribe-content p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+
+
+/* Subscription Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button.btn-primary {
+    background: #e74c32;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+
+
+/* Center the content within the About Us section */
+.about-us-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-us-content h2 {
+    color: #e74c32;
+    margin-bottom: 30px;
+}
+
+.about-us-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.sub-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Add a background color for visual separation */
+}
+
+
+
+/* Adjust the styles for the new contact info */
+.contact-us-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-us-content h2 {
+    color: #e74c32;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-icons, .phone-numbers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li, .phone-numbers li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Style the social media icons */
+.social-icons a {
+    color: #e74c32;
+    text-decoration: none;
+}
+
+/* Style the phone numbers */
+.phone-numbers li {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Additional styles for individual social media icons */
+.fa-twitter { color: #1DA1F2; }
+.fa-facebook { color: #1877F2; }
+.fa-whatsapp { color: #25D366; }
+
+
+/* Add this CSS for the toggle button */
+.switch-container {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #0eb51f;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+
+
+/* Style for each category heading (Starters, Main Courses, Desserts) */
+.menu h2 {
+    background-color: #e74c32;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.menu h2:before {
+    content: '';
+    background-color: #fff;
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Style for each menu item */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Style for item name */
+.menu-item h3 {
+    margin: 0;
+}
+
+/* Style for price */
+.menu-item p {
+    margin: 0;
+    color: #e74c32;
+    font-weight: bold;
+}
+
+/* Align price to the right */
+.menu-item p {
+    text-align: right;
+}
+
+
+

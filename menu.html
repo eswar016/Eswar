@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SpiceVille</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <section class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"><img src="Images/logo.png" alt="SpiceVille Logo" width="100" height="75"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+	</section>
+
+    <div class="container switch-container">
+    <p>Veg:</p>
+    <label class="switch">
+        <input type="checkbox" id="vegetarianToggle" onclick="toggleVegetarian()">
+        <span class="slider round"></span>
+    </label>
+</div>
+
+
+
+<h1>Menu</h1>
+
+    <section class="menu">
+        <h2>Starters</h2>
+        <div class="menu-item vegetarian">
+            <h3>Paneer Tikka Masala</h3>
+            <p>(₹200)</p>
+        </div>
+        <div class="menu-item vegetarian">
+            <h3>Aloo Gobi</h3>
+            <p>(₹150)</p>
+        </div>
+        <div class="menu-item vegetarian">
+            <h3>Dahi Bhalla</h3>
+            <p>(₹150)</p>
+        </div>
+        <div class="menu-item vegetarian">
+            <h3>Samosa Chaat</h3>
+            <p>(₹150)</p>
+        </div>
+        <div class="menu-item vegetarian">
+            <h3>Mushroom Manchurian</h3>
+            <p>(₹200)</p>
+        </div>
+
+        <div class="menu-item non-vegetarian">
+            <h3>Chicken Tikka Masala</h3>
+            <p>(₹220)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Mutton Seekh Kebabs</h3>
+            <p>(₹250)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Fish Fry</h3>
+            <p>(₹220)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Egg Masala</h3>
+            <p>(₹150)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Chicken 65</h3>
+            <p>(₹220)</p>
+        </div>
+    </section>
+
+    <section class="menu">
+        <h2>Main Courses</h2>
+
+        <div class="menu-item vegetarian">
+            <h3>Vegetable Biryani</h3>
+            <p>(₹140)</p>
+        </div>
+        <div class="menu-item vegetarian">
+            <h3>Panner Biryani</h3>
+            <p>(₹240)</p>
+        </div>
+        <div class="menu-item vegetarian">
+            <h3>Paneer fry briyani</h3>
+            <p>(₹260)</p>
+        </div>
+        <div class="menu-item vegetarian">
+            <h3>Mushroom Biryani</h3>
+            <p>(₹280)</p>
+        </div>
+        <div class="menu-item vegetarian">
+            <h3>Kaju Fry Briyani</h3>
+            <p>(₹200)</p>
+        </div>
+
+        <div class="menu-item non-vegetarian">
+            <h3>Chicken Biryani</h3>
+            <p>(₹220)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Chicken Fry Briyani</h3>
+            <p>(₹240)</p>
+        </div>
+        <!-- Add more main dishes as needed -->
+
+        <div class="menu-item non-vegetarian">
+            <h3>Mutton Biryani</h3>
+            <p>(₹280)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Nali Ghose Biriyani</h3>
+            <p>(₹320)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Fish Biryani</h3>
+            <p>(₹380)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Prawns Biriyani</h3>
+            <p>(₹420)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Chicken Tikka Biryani</h3>
+            <p>(₹260)</p>
+        </div>
+        <div class="menu-item non-vegetarian">
+            <h3>Red Chicken Biryani</h3>
+            <p>(₹270)</p>
+        </div>
+    </section>
+
+    <section class="menu">
+        <h2>Desserts</h2>
+
+        <div class="menu-item">
+            <h3>Double ka Meeta</h3>
+            <p>(₹99)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Qurbani ka Meeta</h3>
+            <p>(₹150)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Gulab Jamun</h3>
+            <p>(₹108)</p>
+        </div>
+        <!-- Add more desserts as needed -->
+
+        <div class="menu-item">
+            <h3>Gujar Ka Halwa</h3>
+            <p>(₹130)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Chocolate Brownie</h3>
+            <p>(₹140)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Ice Cream</h3>
+            <p>(₹160)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Chocolate</h3>
+            <p>(₹180)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Butterscotch</h3>
+            <p>(₹170)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Strawberry</h3>
+            <p>(₹175)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Venila</h3>
+            <p>(₹160)</p>
+        </div>
+        <div class="menu-item">
+            <h3>Pot Kulfi</h3>
+            <p>(₹185)</p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+   <section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Contact Information</h3>
+                <p>123 Spice Street, Hyderbad</p>
+                <p>Email: infospiceville@gmail.com</p>
+                <p>Phone: +91 9876543210</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>or Leave a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your Message..." rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
